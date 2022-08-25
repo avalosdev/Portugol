@@ -1,3 +1,6 @@
+// Função do Algoritmo. Abrir programa
+// Autor : Alberto Avalos
+
 programa
 {
 	
@@ -5,42 +8,32 @@ programa
 	{
 		escreva("1  - Abrir Netflix   - 2 - Abrir Amazon Prime  - 3 - Abrir HBO GO - 4 - Sair")
 		inteiro menu = 0
-		escreva ("\n" + "Sua escolha:")
-		leia (menu)
-		
-		escolha (menu)
- 		{
-		caso 1:
-			escreva ("Ok!! Abrir Netflix!!")
-		pare	
-	
+		escreva("\n" + "Sua opção:")
+		leia(menu)
 
-		caso 2: 
+		se (menu==1) {
+			escreva ("Ok!! Abrir Netflix!!")
+		}	
+
+		se (menu==2) {
 			escreva ("Ok!! Abrir Amazon Prime!!")	
-		pare	
-   		
-		caso 3:
+   		}
+		se (menu==3) {
 			escreva ("Ok!! Abrir HBO GO!!")	
-		pare	
-		
-		caso 4: 
-			escreva ("Ok!! Saindo do menu...") 
-		pare
-			
-          caso  contrario :
-          escreva ("Você deve escolher as opções 1, 2 ou 3")
+		}
+          se (menu==4) {
+			escreva ("Ok!! Saindo do menu...")
 		}	
 			
 				
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 175; 
+ * @POSICAO-CURSOR = 390; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
